@@ -39,6 +39,7 @@ public class VetorDinamico {
     //4. dobrar o valor de cap
     cap = cap * 2; // cap *= 2;
   }
+  private void reduzirCapacidade(){}
   private boolean estaCheio(){
     // if(qtde == cap){
     //   return true;  
@@ -53,5 +54,8 @@ public class VetorDinamico {
   public void remover(){
     if(!estaVazio())
       qtde--;
+    
   }
+
+
 }
